@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style type="text/css">
+  html {
+    text-align: center;
+  }
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  table {
+    width: 100%;
+    border-spacing: 0;
+  }
+  table, td, th {
+    border: 1px solid #000;
+  }
+  th {
+    padding: 15px;
+  }
+  td.valor {
+    color: #F00;
+    font-weight: bold;
+  }
+  #valor-camaro {
+    background-color: #F00;
+    color: #000;
+  }
+  .list-wrap {
+    padding: 5px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    width: 200px;
+    display: inline-block;
+  }
+  section {
+    text-align: left;
+  }
+  hr {
+    border: 1px solid #000;
+  }
+  img, hr, table {
+    margin: 20px 0;
+  }
+  </style>
+</head>
+<body>
+  <h1>Tarifas de locação</h1>
+  <hr>
+  <a href="http://www.chevrolet.com.br/carros/camaro.html">
+    <img src="http://www.radarnacional.com.br/wp-content/uploads/2015/09/Chevrolet-Camaro-5-800x500_c.jpg" alt="Camaro do Le Cirque" width="250px">
+  </a>
+  <table>
+    <thead>
+      <tr>
+        <th>Carro</th>
+        <th>Diária</th>
+        <th>Descrição</th>
+        <th>Valor</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td rowspan="4">Celta</td>
+        <td rowspan="4">Km Livre<br>(mínimo 3 dias)</td>
+        <td>2 portas sem ar</td>
+        <td class="valor">59.99</td>
+      </tr>
+      <tr>
+        <td>2 portas com ar</td>
+        <td class="valor">69.99</td>
+      </tr>
+      <tr>
+        <td>2 portas com ar e DH</td>
+        <td class="valor">74.99</td>
+      </tr>
+      <tr>
+        <td>Sedan com ar e DH</td>
+        <td class="valor">59.99</td>
+      </tr>
+      <tr>
+        <td rowspan="3">Palio</td>
+        <td rowspan="3">Km Livre<br>(mínimo 3 dias)</td>
+        <td>2 portas sem ar</td>
+        <td class="valor">59.99</td>
+      </tr>
+      <tr>
+        <td>2 portas com ar</td>
+        <td class="valor">69.99</td>
+      </tr>
+      <tr>
+        <td>2 portas com ar e DH</td>
+        <td class="valor">74.99</td>
+      </tr>
+      <tr>
+        <td>Novo Uno</td>
+        <td>Km Livre<br>(mínimo 3 dias)</td>
+        <td>2 portas com ar e DH</td>
+        <td class="valor">74.99</td>
+      </tr>
+      <tr>
+        <td>Camaro</td>
+        <td>Km Livre<br>(mínimo 3 dias)</td>
+        <td>Super Sport</td>
+        <td id="valor-camaro" class="valor">699.99</td>
+      </tr>
+    </tbody>
+  </table>
+  <section>
+    <div class="list-wrap">
+    <strong>Carros Chevrolet</strong>
+    <ul>
+      <li>Celta</li>
+      <li>Camaro</li>
+    </ul>
+  </div>
+  <div class="list-wrap">
+    <strong>Carros Chevrolet</strong>
+    <ol>
+      <li>Palio</li>
+      <li>Novo Uno</li>
+    </ol>
+  </div>
+  </section>
+</body>
+</html>
